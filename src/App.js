@@ -7,8 +7,6 @@ import MainContext from './MainContext';
 import Loader from './components/Loader';
 import ForecastH from './components/ForecastH';
 import ForecastSlider from './components/ForecastSlider';
-const api = "gwuk0Vo77FgdmAve1ExiXrhOBPGGXFfC";
-// const api="6sFcOjAM8fCZZ9EI01cy59sMHTM6AhdQ";
 const open_api = process.env.REACT_APP_WEATHER_API;
 
 function App() {
