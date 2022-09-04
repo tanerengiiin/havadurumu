@@ -382,9 +382,10 @@ body {
     width: 92%;
   }
   .search-input{
+    width: 300px;
     font-weight: 400;
     border-radius: 12px;
-    padding: 8px 12px;
+    padding: 12px 20px;
     background-color: white;
     color: rgb(14, 32, 44);
     font-size: 16px;
