@@ -388,7 +388,7 @@ body {
     padding: 12px 20px;
     background-color: white;
     color: rgb(14, 32, 44);
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
     transition: all 0.2s ease;
     animation: autoComplate 0.3s ease-in-out;
