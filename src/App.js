@@ -76,11 +76,11 @@ function App() {
   const getFiveDaysWeather=()=>{
     setError("");
     setFiveDaysWeather([]);
-    const baseUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=" + open_api;
+    const baseUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=" + open_api;
     fetch(baseUrl)
       .then((response) => response.json())
       .then((data) => {
-        const baseUrl2 = "http://api.openweathermap.org/data/2.5/forecast?" + "lat=" + data[0].lat + "&lon=" + data[0].lon + "&appid=" + open_api + "&lang=tr&units=metric";
+        const baseUrl2 = "https://api.openweathermap.org/data/2.5/forecast?" + "lat=" + data[0].lat + "&lon=" + data[0].lon + "&appid=" + open_api + "&lang=tr&units=metric";
         fetch(baseUrl2)
           .then((response) => response.json())
           .then((data) => {
@@ -102,11 +102,11 @@ function App() {
     setLoading(true);
     setError("");
     setCurrentWeather({})
-    const baseUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=" + open_api;
+    const baseUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=" + open_api;
     fetch(baseUrl)
       .then((response) => response.json())
       .then((data) => {
-        const baseUrl2 = "http://api.openweathermap.org/data/2.5/weather?" + "lat=" + data[0].lat + "&lon=" + data[0].lon + "&appid=" + open_api + "&lang=tr&units=metric";
+        const baseUrl2 = "https://api.openweathermap.org/data/2.5/weather?" + "lat=" + data[0].lat + "&lon=" + data[0].lon + "&appid=" + open_api + "&lang=tr&units=metric";
         fetch(baseUrl2)
           .then((response) => response.json())
           .then((data) => {
