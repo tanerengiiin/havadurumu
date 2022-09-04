@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/havadurumu/static/css/main.207cb9a0.css",
+    "main.css": "/havadurumu/static/css/main.d55bdad1.css",
     "main.js": "/havadurumu/static/js/main.24c6bfe0.js",
     "static/media/sun.png": "/havadurumu/static/media/sun.f8dca26410ad414cc958.png",
     "static/media/sun-cloud.png": "/havadurumu/static/media/sun-cloud.da73bebec5f970c7754b.png",
@@ -12,11 +12,11 @@
     "static/media/moon.png": "/havadurumu/static/media/moon.5fc2b3ce86cecac4c94a.png",
     "static/media/cloud.png": "/havadurumu/static/media/cloud.2a139d734a8402dcf933.png",
     "index.html": "/havadurumu/index.html",
-    "main.207cb9a0.css.map": "/havadurumu/static/css/main.207cb9a0.css.map",
+    "main.d55bdad1.css.map": "/havadurumu/static/css/main.d55bdad1.css.map",
     "main.24c6bfe0.js.map": "/havadurumu/static/js/main.24c6bfe0.js.map"
   },
   "entrypoints": [
-    "static/css/main.207cb9a0.css",
+    "static/css/main.d55bdad1.css",
     "static/js/main.24c6bfe0.js"
   ]
 }
